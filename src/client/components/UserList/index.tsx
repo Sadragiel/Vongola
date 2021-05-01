@@ -1,0 +1,28 @@
+import * as React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { actions, selectors } from '../../store/user';
+
+export default () => {
+    const userList = useSelector(selectors.getUsersList);
+    const dispatch = useDispatch();
+    
+    React.useEffect(() => {
+        dispatch(actions.getUsers());
+    }, []);
+
+    console.log('--------------- userList', userList);
+
+    return (
+        <ul>
+            { userList 
+                ? userList.map(user => (
+                    <li>
+                        <span> {user.login} </span>
+                    </li>
+                ))
+                : <span> EMPTY LIST LOL </span>
+            }
+        </ul>
+    )
+}

@@ -1,15 +1,15 @@
 import { Module } from '@nestjs/common';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { MongooseModule } from '@nestjs/mongoose';
-import { join } from 'path';
 import { UserModule } from './user/user.module';
+import config from '../config';
 
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '../../public'),
+      rootPath: config.staticPath,
     }),
-    MongooseModule.forRoot('mongodb+srv://vongola:alognov@cluster0.n6lot.mongodb.net/vongola?retryWrites=true&w=majority'),
+    MongooseModule.forRoot(config.database),
     UserModule
   ],
 })

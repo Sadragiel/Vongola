@@ -11,8 +11,6 @@ export default () => {
         dispatch(actions.getUsers());
     }, []);
 
-    console.log('--------------- userList', userList);
-
     return (
         <ul>
             { userList 

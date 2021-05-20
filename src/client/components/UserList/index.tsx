@@ -15,7 +15,7 @@ export default () => {
         <ul>
             { userList 
                 ? userList.map(user => (
-                    <li>
+                    <li key={user.login}>
                         <span> {user.login} </span>
                     </li>
                 ))

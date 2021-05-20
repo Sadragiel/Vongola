@@ -9,9 +9,9 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
     "incremental": true,
     "rootDir": "./src",
-    "jsx": "react"
+    "jsx": "react",
+    "strict": true
   }
 }

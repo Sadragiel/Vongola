@@ -1,0 +1,8 @@
+.header {
+    background: burlywood;
+
+    &__row {
+        display: flex;
+        padding: 15px 25px;
+    }
+}

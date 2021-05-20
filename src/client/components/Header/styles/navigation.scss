@@ -1,0 +1,27 @@
+.navigation {
+    display: flex;
+    flex: 100% 1 1;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-basis: 30%;
+        margin-left: 10%;
+    }
+
+    &__item {
+        font-weight: 800;
+
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}

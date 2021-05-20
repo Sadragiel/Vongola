@@ -1,20 +1,21 @@
 import * as React from 'react';
-import { Link } from "react-router-dom";
+import LanguageSwitcher from './LanguageSwitcher';
+import Login from './Login';
+import Logo from './Logo';
+import Navigation from './Navigation';
+
+import './styles/index.scss';
 
 export default function() {
     return (
-        <nav>
-			<ul>
-				<li>
-					<Link to="/">Home</Link>
-				</li>
-                <li>
-					<Link to="/user">Users</Link>
-				</li>
-				<li>
-					<Link to="/about">About</Link>
-				</li>
-			</ul>
-        </nav>
+		<header className="header">
+			<div className="header__row">
+				<Logo />
+				<Navigation />
+				<Login />
+				<LanguageSwitcher />
+			</div>
+			
+		</header>
     );
 }

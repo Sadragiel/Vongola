@@ -1,11 +1,12 @@
-import types from './types';
-import { createAction } from 'redux-actions';
+import { UserDto } from '../../../common/user';
+import { createActionCreator, Action } from '../../utils/actionCreator';
+import { types } from './types';
 
-export default storeName => {
-    const storeTypes = types(storeName);
+const getUsers = createActionCreator(types.GET_USERS)();
+const setUsers = createActionCreator(types.SET_USERS)<UserDto []>();
 
-    return {
-        getUsers: createAction(storeTypes.GET_USERS),
-        setUsers: createAction(storeTypes.SET_USERS),
-    }
-}
+export const actions = {
+    getUsers,
+    setUsers,
+};
+export type UserAction =  Action<typeof actions>;

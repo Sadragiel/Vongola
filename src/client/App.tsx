@@ -7,30 +7,23 @@ import {
 	Route
 } from "react-router-dom";
 import { Provider } from 'react-redux';
-import store from './store/saga.init'
-
-import HomePage from './pages/HomePage';
-import About from './pages/About';
+import store from './store/saga.init';
 
 import Header from './components/Header';
-import UserList from './components/UserList';
+
+import { routingConfig, routerArray } from './routing-config';
 
 const App = () => {
 	return (
 		<Provider store={store}>
 			<Router>
-				<h1 className="test">Danylo lol</h1>
 				<Header />
 				<Switch>
-					<Route path="/about">
-						<About />
-					</Route>
-					<Route path="/user">
-						<UserList />
-					</Route>
-					<Route path="/">
-						<HomePage />
-					</Route>
+					{routerArray.map(routKey => 
+						<Route key={ routingConfig[routKey].link } path={routingConfig[routKey].link}>
+							{ routingConfig[routKey].page }
+						</Route>
+					)}
 				</Switch>
 			</Router>
 		</Provider>

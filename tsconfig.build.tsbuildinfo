@@ -186,6 +186,56 @@
         "signature": "5d708266116e778d6a4140fca2ac36f71d99b4c68bc3be63a45ba8bf5ade5348",
         "affectsGlobalScope": true
       },
+      "./node_modules/@types/react-dom/index.d.ts": {
+        "version": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
+        "signature": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/domutils.d.ts": {
+        "version": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "signature": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/history/createbrowserhistory.d.ts": {
+        "version": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "signature": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/createhashhistory.d.ts": {
+        "version": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "signature": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/creatememoryhistory.d.ts": {
+        "version": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "signature": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/locationutils.d.ts": {
+        "version": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "signature": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/pathutils.d.ts": {
+        "version": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "signature": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/index.d.ts": {
+        "version": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "signature": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router/index.d.ts": {
+        "version": "331ccc5c36630a5ced3990e2cd43a1b54a22179a861f9ddddd20d64ea88b3b97",
+        "signature": "331ccc5c36630a5ced3990e2cd43a1b54a22179a861f9ddddd20d64ea88b3b97",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router-dom/index.d.ts": {
+        "version": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "signature": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "affectsGlobalScope": false
+      },
       "./node_modules/redux/index.d.ts": {
         "version": "d530250769a14518ebd6edda5b5f94abaaf3b9f612363c0da32082fa6acd0da8",
         "signature": "d530250769a14518ebd6edda5b5f94abaaf3b9f612363c0da32082fa6acd0da8",
@@ -252,53 +302,93 @@
         "affectsGlobalScope": false
       },
       "./src/client/store/user/types.ts": {
-        "version": "62c1b57de17cedc0bdaff9e156f2c863de38efc8f974be469e116041c508cba8",
-        "signature": "771ef30f4e66450dae28829b342dcfd9e323143cc93bb18a1fab9d19d3c9ce86",
+        "version": "cf8b54efe19af9525aa028475ec29852fd2759393f29f3489d458183eacb49fb",
+        "signature": "d4f34bd59d5d0d344cb6abdb72131c8e5ff2d999077012c2aad83578666b0674",
+        "affectsGlobalScope": false
+      },
+      "./src/common/user/index.ts": {
+        "version": "24874876286be1ee09a050dfac8fca40ff48cf04c98fdb8308d8729aeda4ca73",
+        "signature": "cbba52cb70cfc5f010bc9e77db25196e634cb47c6194e2f58b2e878a82de612f",
+        "affectsGlobalScope": false
+      },
+      "./src/client/utils/actioncreator.ts": {
+        "version": "339df178a5f64c8249ad43c3d29e87dc47485fa0297b7fc20f6303c23b94d488",
+        "signature": "8c9fb1e438fe4f024a9bc7c6cc5efad23157377b5137adbee13603c2be625cbe",
         "affectsGlobalScope": false
       },
       "./src/client/store/user/actions.ts": {
-        "version": "9cb987e3e93d15050cb000521d13cd6b9cd6e479557725d2853266070680fa50",
-        "signature": "85d5073e8210e6dd4fff0708656fc90fd3db1c96f548a83eb53553edc44af1a6",
+        "version": "3f83de6a2e976a11eb9e03126c06d93e37e38836f790c2639fb43665894cd30d",
+        "signature": "12d98539dfec366964892783818981841ce6212bfbce93a9a0bbee3952ad9691",
         "affectsGlobalScope": false
       },
-      "./src/client/store/user/reducers.ts": {
-        "version": "386e55868137aee9f234875b5870e99aff02b3c01f8d5813dcf005f99579635f",
-        "signature": "0a203ee0523d26f48716c56e0ac891cf45b67b853a5f932e4235a2c475f28980",
+      "./src/client/store/user/reducer.ts": {
+        "version": "e25fad18cdbfd7c1583c6b00cd1b66236c914b8ccd4c6c2d8d830e80c3a84171",
+        "signature": "7559f5701e5507c29109d1dcc4f0e6f97963f79f58ac35dfe4d3331cdf2c561d",
+        "affectsGlobalScope": false
+      },
+      "./src/client/store/state.type.ts": {
+        "version": "0b5d30f52eb36cfdfa983dd07cb2b0a14e0b1bf6e2b6fcc1ef717b11e6904a97",
+        "signature": "687701f1457b9db64c67d33cd4231f7c859f81ba9e9e5414fd35a8f64f35eb06",
         "affectsGlobalScope": false
       },
       "./src/client/store/user/selectors.ts": {
-        "version": "2f507ee31de2a92bbd14793abd23d8b14a6eb873709d90dd64804a18cb7cd60a",
-        "signature": "310ce3fe8420e90b08ed5ac403dbd45dccfece1e03cc08095f168343c552fc2c",
-        "affectsGlobalScope": false
-      },
-      "./src/client/store/user/index.ts": {
-        "version": "ebc3687667739439b6452e74f17d15b516c1d052b3f49af2451b2f136ed3d956",
-        "signature": "33019cc3fbc7654edb53d233b1ec3119d88fef9dea92fac67fd715d6d82f1d48",
-        "affectsGlobalScope": false
-      },
-      "./src/client/store/reducers.ts": {
-        "version": "d98b2a7b95e165a1252fc284f6a041aedb4e93e64aa16107d92e06be39e8af99",
-        "signature": "bea3ef238ea5a3b5d3f6d98aa046e226758e81e8f5709867f72033c2cbfe5334",
+        "version": "cbd15da2b9fd58828ff2c7add7c4189cddbe0b8e71e1bbe4a5906694e9a0d8fa",
+        "signature": "01ffd459f5e6af3b6590cb1246aafb84412ceb8c05148e8ef68def28d5fb5d79",
         "affectsGlobalScope": false
       },
       "./src/client/utils/httpclient.ts": {
-        "version": "0a77905f88965e4f8469a9423a163fa86e4cc69289328ce4a5114281cbd3b421",
+        "version": "167c57c2280adf7d29e3adf66f800a8dc5d88523cdb9491f93c3b14a995deb8a",
         "signature": "00c4bca5bee4ba037b9452a7b733e157aeab1281aeae129cb6e750b3c15bc4e5",
         "affectsGlobalScope": false
       },
       "./src/client/store/user/saga.ts": {
-        "version": "93c2c68f62f7cc341d8a8142be817c118b35a31961071d5e829af9d990c91454",
+        "version": "14417922b79fa1738b97a88466fec3492d7ecde515bed9ddedb123e3116fe1f7",
         "signature": "f4cbfc0f8bc2fed4bc9eb85d2e2e5301cd4f19a590fbd10fa3ef98e83f93b5ec",
         "affectsGlobalScope": false
       },
+      "./src/client/store/user/index.ts": {
+        "version": "f776c50067da9b99d5656dab4f58cc2ab590592b95e6e00255b5db91a17a6a85",
+        "signature": "f776c50067da9b99d5656dab4f58cc2ab590592b95e6e00255b5db91a17a6a85",
+        "affectsGlobalScope": false
+      },
+      "./src/client/store/reducers.ts": {
+        "version": "96bd60aa551891d4d3edaa2c162812d2f1358d25c7192ef63e16f6ac469f4821",
+        "signature": "4df7a9a7bdd82e184a83b933e9e99cfd7bb00ed27f02f280b78ece0d8f223f77",
+        "affectsGlobalScope": false
+      },
       "./src/client/store/saga.init.ts": {
-        "version": "d47a823bc77517dd13cc7cdc80bedaa0006841469dfc9ab287db94840351b3b7",
-        "signature": "eeeb3298ba2422c7641a00ea5e01a4ba57f17477dc60168519d1a624dd510d2b",
+        "version": "fad78382a20af8e1207755955bd024b71edd313cc8470ba543cbcecc935732ca",
+        "signature": "bfa4a01a5ce040e450dccfd1c21b243cbc0d68015d71bb8bf192210083b0f314",
+        "affectsGlobalScope": false
+      },
+      "./src/client/components/header/languageswitcher.tsx": {
+        "version": "170b1b2a6886b386e79d43d51efaabdcd15f1e3ce68456b91593012bef3b3b27",
+        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
+        "affectsGlobalScope": false
+      },
+      "./src/client/components/header/login.tsx": {
+        "version": "ac5025d936f03c06065f4b3cc5b470f95480ba3805b6ddaa11e79c5056386523",
+        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
+        "affectsGlobalScope": false
+      },
+      "./src/client/components/header/logo.tsx": {
+        "version": "15f95673e30c194a0f08356b327d2c676888a3f107504434719eea0180f7379c",
+        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
+        "affectsGlobalScope": false
+      },
+      "./src/client/components/userlist/index.tsx": {
+        "version": "020d7f102f20458f26d1faaa7507980686210c05efd35049598fc0b938d94cc4",
+        "signature": "85da62fb83bfd81c30d62ca33a9897b36169f82f34072a62735e330b0bb42649",
+        "affectsGlobalScope": false
+      },
+      "./src/client/pages/homepage/mainbanner.tsx": {
+        "version": "76a43d23f062739de5889d335d30735c3ed463bab9a8d5d3e8ab64cd052f6674",
+        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
         "affectsGlobalScope": false
       },
       "./src/client/pages/homepage/index.tsx": {
-        "version": "2de7ee85eb7d900c4d590279db8e25cf177d55deaf951e785db625db9a25d555",
-        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
+        "version": "b01f639fc5d9545219537a3a7d91416ffd11b1c4c9ff7be856844b9efa1a0496",
+        "signature": "612a46b6c0b4d38a6b17733d5cce59fee7f9653ed2b68116aadc278baedc5c2f",
         "affectsGlobalScope": false
       },
       "./src/client/pages/about/index.tsx": {
@@ -306,24 +396,39 @@
         "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
         "affectsGlobalScope": false
       },
-      "./src/client/components/header/index.tsx": {
-        "version": "82015b0b39df888e45aa86eac19357f9ca8ce5df33ff42f87ff63801cc877816",
+      "./src/client/routing-config/index.tsx": {
+        "version": "0faa1d6bb59aecdbff4f0e792a1870bd1778de4232c9630073e294f89aa0dc68",
+        "signature": "98e28e1309d5a66f22ce235475948155e09abc0d4d86f0b558d26762e7442479",
+        "affectsGlobalScope": false
+      },
+      "./src/client/components/header/navigation.tsx": {
+        "version": "0830bb1a5861d004bb76ded10f760a8a46753e6f26bb05fb70bae95986bb47c3",
         "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
         "affectsGlobalScope": false
       },
-      "./src/client/components/userlist/index.tsx": {
-        "version": "963f15268f3ede716509cc1e6bd2774af358bc95ce8c4831463334c99b9756d8",
-        "signature": "85da62fb83bfd81c30d62ca33a9897b36169f82f34072a62735e330b0bb42649",
+      "./src/client/components/header/index.tsx": {
+        "version": "8239b2ee6c6d5b05a7fc906ab7d2494b3214738a23afb150ea6404c28c783b10",
+        "signature": "612a46b6c0b4d38a6b17733d5cce59fee7f9653ed2b68116aadc278baedc5c2f",
         "affectsGlobalScope": false
       },
       "./src/client/app.tsx": {
-        "version": "7a0b0c2a8dfc8dbf180fd26bcaea19a963427aab07ed84a1b43dfa7dad8dfbe2",
+        "version": "fec52549bb7f8a92b3db5617c2cabca030a8a6b9a7eebfd09d7e77fb084edf9a",
         "signature": "9fdaaa24f9f1bbf6913db7c2b06439dee50ddb2a3c4a552d8b765e9c98231d90",
         "affectsGlobalScope": false
       },
-      "./src/client/components/userlist/userlist.tsx": {
-        "version": "963f15268f3ede716509cc1e6bd2774af358bc95ce8c4831463334c99b9756d8",
-        "signature": "85da62fb83bfd81c30d62ca33a9897b36169f82f34072a62735e330b0bb42649",
+      "./src/client/components/header/test.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "./src/client/pages/homepage/goals.tsx": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "./src/config/index.ts": {
+        "version": "ef6f245a2a7adb6b0352e6117455c285382b66cd60826e7d4bd92da2635b37e6",
+        "signature": "f8d1beb2ed77c5b0fce83b95324364f486347efeab3736e24021aa852de79461",
         "affectsGlobalScope": false
       },
       "./node_modules/reflect-metadata/index.d.ts": {
@@ -1917,23 +2022,18 @@
         "affectsGlobalScope": false
       },
       "./src/server/user/schemas/user.schema.ts": {
-        "version": "df5a364a9445bd7fa7b6f1fcbfdf2d5ad9db822d78cef4ef95d9270feb73b98e",
+        "version": "130b8ddd1ebec2927323fdf14383f3cee72fd2619855cbe075953d685875692b",
         "signature": "6c1e54eab909f6fa5ab561c0427b5b453eb18c8b7291d47d4bab3f66bf3813d2",
         "affectsGlobalScope": false
       },
-      "./src/server/user/dto/create-user.dto.ts": {
-        "version": "b5cf7022bee229c9e97e0c1858ddb992966cc74b2050fa95f6c01a975d34a15f",
-        "signature": "2957efda41590968a5bc4544dab313ee4cb5604af22400f09f14f3dc9e2825ed",
-        "affectsGlobalScope": false
-      },
       "./src/server/user/user.service.ts": {
-        "version": "ddc5996a0bbd47232fb20b19dd552661e84dbc15c7103b6df5712f6a4fe2f7b3",
-        "signature": "783e3cbe0f09a8495e85f121ee24b65388beeb3e66b528fe92fc5edd37d27a10",
+        "version": "67318ae322b10eb782de2ff65c14eeb74b9bc1f2c2c98b7a8e7a44023ad12cbe",
+        "signature": "83e89393b87a25362574f0966d74f3da538db8063f0df38190fe42599ffcff54",
         "affectsGlobalScope": false
       },
       "./src/server/user/user.controller.ts": {
-        "version": "9ea913658258dd42b7ae30f6dafb6fd04c6a7d3b647e3b270ab9696050e7cb41",
-        "signature": "9f0c31540f47be91785429e9547b054c818af44bcc4dd08fc15a0f7f6123e613",
+        "version": "a449a427c7570c7ba6ba765100d40cc0925a9fe98f5d12658a6099e3076f4072",
+        "signature": "e3fa63ea54709949d0cecf8fac0429950ae4084b3436b7ab82dbf3d947007aa2",
         "affectsGlobalScope": false
       },
       "./src/server/user/user.module.ts": {
@@ -1942,12 +2042,12 @@
         "affectsGlobalScope": false
       },
       "./src/server/app.module.ts": {
-        "version": "e4726782534dbd2068c34561f7987091db3bb9bee2880ac53d951744f78e2ea0",
+        "version": "9d0b4e0f7995a131787bf7cf44bf8448105e2e40fc25528276cf7dfba712d153",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
       "./src/server/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "8c7be29de1770762dba1a6f0d7d3f058a414caa74e1fc3a70b3612f6325b42e3",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -2141,6 +2241,11 @@
         "signature": "08b428a44bc98005536a12456518797e9afe2a08e8b5d9785641713a54475881",
         "affectsGlobalScope": false
       },
+      "./node_modules/@types/redux-actions/index.d.ts": {
+        "version": "054b82e9027881121ad12879cd54ecd3d84cffd65002cc13c2bb5caf35afc6b8",
+        "signature": "054b82e9027881121ad12879cd54ecd3d84cffd65002cc13c2bb5caf35afc6b8",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/scheduler/index.d.ts": {
         "version": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
         "signature": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
@@ -2182,10 +2287,10 @@
       "target": 4,
       "sourceMap": true,
       "outDir": "./dist",
-      "baseUrl": "./",
       "incremental": true,
       "rootDir": "./src",
       "jsx": 2,
+      "strict": true,
       "configFilePath": "./tsconfig.build.json"
     },
     "referencedMap": {
@@ -2997,6 +3102,31 @@
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
       "./node_modules/@types/hoist-non-react-statics/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -3245,10 +3375,22 @@
         "./node_modules/@types/node/stream.d.ts",
         "./node_modules/@types/node/zlib.d.ts"
       ],
+      "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@types/react-redux/index.d.ts": [
         "./node_modules/@types/hoist-non-react-statics/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/redux/index.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/@types/prop-types/index.d.ts",
@@ -3613,23 +3755,36 @@
         "./node_modules/typescript-compare/index.d.ts"
       ],
       "./src/client/app.tsx": [
+        "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react-redux/index.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./src/client/components/header/index.tsx",
-        "./src/client/components/userlist/index.tsx",
-        "./src/client/pages/about/index.tsx",
-        "./src/client/pages/homepage/index.tsx",
+        "./src/client/routing-config/index.tsx",
         "./src/client/store/saga.init.ts"
       ],
       "./src/client/components/header/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/client/components/header/languageswitcher.tsx",
+        "./src/client/components/header/login.tsx",
+        "./src/client/components/header/logo.tsx",
+        "./src/client/components/header/navigation.tsx"
+      ],
+      "./src/client/components/header/languageswitcher.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/client/components/userlist/index.tsx": [
-        "./node_modules/@types/react-redux/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./src/client/store/user/index.ts"
+      "./src/client/components/header/login.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/client/components/userlist/userlist.tsx": [
+      "./src/client/components/header/logo.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/client/components/header/navigation.tsx": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/client/routing-config/index.tsx"
+      ],
+      "./src/client/components/userlist/index.tsx": [
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./src/client/store/user/index.ts"
@@ -3638,7 +3793,17 @@
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/client/pages/homepage/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/client/pages/homepage/mainbanner.tsx"
+      ],
+      "./src/client/pages/homepage/mainbanner.tsx": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/client/routing-config/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/client/components/userlist/index.tsx",
+        "./src/client/pages/about/index.tsx",
+        "./src/client/pages/homepage/index.tsx"
       ],
       "./src/client/store/reducers.ts": [
         "./node_modules/redux/index.d.ts",
@@ -3651,32 +3816,49 @@
         "./src/client/store/reducers.ts",
         "./src/client/store/user/saga.ts"
       ],
+      "./src/client/store/state.type.ts": [
+        "./src/client/store/user/index.ts"
+      ],
       "./src/client/store/user/actions.ts": [
-        "./src/client/store/user/types.ts"
+        "./src/client/store/user/types.ts",
+        "./src/client/utils/actioncreator.ts",
+        "./src/common/user/index.ts"
       ],
       "./src/client/store/user/index.ts": [
         "./src/client/store/user/actions.ts",
-        "./src/client/store/user/reducers.ts",
+        "./src/client/store/user/reducer.ts",
+        "./src/client/store/user/saga.ts",
         "./src/client/store/user/selectors.ts",
         "./src/client/store/user/types.ts"
       ],
-      "./src/client/store/user/reducers.ts": [
-        "./src/client/store/user/types.ts"
+      "./src/client/store/user/reducer.ts": [
+        "./src/client/store/user/actions.ts",
+        "./src/client/store/user/types.ts",
+        "./src/common/user/index.ts"
       ],
       "./src/client/store/user/saga.ts": [
         "./node_modules/redux-saga/effects.d.ts",
         "./src/client/store/user/index.ts",
-        "./src/client/utils/httpclient.ts"
+        "./src/client/utils/httpclient.ts",
+        "./src/common/user/index.ts"
+      ],
+      "./src/client/store/user/selectors.ts": [
+        "./src/client/store/state.type.ts",
+        "./src/client/store/user/types.ts"
+      ],
+      "./src/config/index.ts": [
+        "./node_modules/@types/node/path.d.ts"
       ],
       "./src/server/app.module.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
         "./node_modules/@nestjs/mongoose/index.d.ts",
         "./node_modules/@nestjs/serve-static/index.d.ts",
-        "./node_modules/@types/node/path.d.ts",
+        "./src/config/index.ts",
         "./src/server/user/user.module.ts"
       ],
       "./src/server/main.ts": [
         "./node_modules/@nestjs/core/index.d.ts",
+        "./src/config/index.ts",
         "./src/server/app.module.ts"
       ],
       "./src/server/user/schemas/user.schema.ts": [
@@ -3685,7 +3867,7 @@
       ],
       "./src/server/user/user.controller.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
-        "./src/server/user/dto/create-user.dto.ts",
+        "./src/common/user/index.ts",
         "./src/server/user/user.service.ts"
       ],
       "./src/server/user/user.module.ts": [
@@ -3699,7 +3881,7 @@
         "./node_modules/@nestjs/common/index.d.ts",
         "./node_modules/@nestjs/mongoose/index.d.ts",
         "./node_modules/mongoose/index.d.ts",
-        "./src/server/user/dto/create-user.dto.ts",
+        "./src/common/user/index.ts",
         "./src/server/user/schemas/user.schema.ts"
       ]
     },
@@ -4512,6 +4694,31 @@
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
       "./node_modules/@types/hoist-non-react-statics/index.d.ts": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -4760,10 +4967,22 @@
         "./node_modules/@types/node/stream.d.ts",
         "./node_modules/@types/node/zlib.d.ts"
       ],
+      "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./node_modules/@types/react-redux/index.d.ts": [
         "./node_modules/@types/hoist-non-react-statics/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/redux/index.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/@types/prop-types/index.d.ts",
@@ -5128,25 +5347,49 @@
         "./node_modules/typescript-compare/index.d.ts"
       ],
       "./src/client/store/reducers.ts": [
-        "./node_modules/redux/index.d.ts"
+        "./node_modules/redux/index.d.ts",
+        "./src/client/store/user/index.ts",
+        "./src/common/user/index.ts"
       ],
       "./src/client/store/saga.init.ts": [
         "./node_modules/redux/index.d.ts"
       ],
+      "./src/client/store/state.type.ts": [
+        "./src/client/store/user/index.ts"
+      ],
+      "./src/client/store/user/actions.ts": [
+        "./src/client/utils/actioncreator.ts",
+        "./src/common/user/index.ts"
+      ],
+      "./src/client/store/user/index.ts": [
+        "./src/client/store/user/actions.ts",
+        "./src/client/store/user/reducer.ts",
+        "./src/client/store/user/saga.ts",
+        "./src/client/store/user/selectors.ts",
+        "./src/client/store/user/types.ts"
+      ],
+      "./src/client/store/user/reducer.ts": [
+        "./src/client/store/user/actions.ts",
+        "./src/common/user/index.ts"
+      ],
       "./src/client/store/user/saga.ts": [
         "./node_modules/redux-saga/effects.d.ts"
+      ],
+      "./src/client/store/user/selectors.ts": [
+        "./src/client/store/state.type.ts",
+        "./src/common/user/index.ts"
       ],
       "./src/server/user/schemas/user.schema.ts": [
         "./node_modules/mongoose/index.d.ts"
       ],
       "./src/server/user/user.controller.ts": [
-        "./src/server/user/dto/create-user.dto.ts",
+        "./src/common/user/index.ts",
         "./src/server/user/schemas/user.schema.ts",
         "./src/server/user/user.service.ts"
       ],
       "./src/server/user/user.service.ts": [
         "./node_modules/mongoose/index.d.ts",
-        "./src/server/user/dto/create-user.dto.ts",
+        "./src/common/user/index.ts",
         "./src/server/user/schemas/user.schema.ts"
       ]
     },
@@ -5375,6 +5618,13 @@
       "./node_modules/@types/express-serve-static-core/index.d.ts",
       "./node_modules/@types/express/index.d.ts",
       "./node_modules/@types/graceful-fs/index.d.ts",
+      "./node_modules/@types/history/createbrowserhistory.d.ts",
+      "./node_modules/@types/history/createhashhistory.d.ts",
+      "./node_modules/@types/history/creatememoryhistory.d.ts",
+      "./node_modules/@types/history/domutils.d.ts",
+      "./node_modules/@types/history/index.d.ts",
+      "./node_modules/@types/history/locationutils.d.ts",
+      "./node_modules/@types/history/pathutils.d.ts",
       "./node_modules/@types/hoist-non-react-statics/index.d.ts",
       "./node_modules/@types/html-minifier-terser/index.d.ts",
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
@@ -5437,9 +5687,13 @@
       "./node_modules/@types/prop-types/index.d.ts",
       "./node_modules/@types/qs/index.d.ts",
       "./node_modules/@types/range-parser/index.d.ts",
+      "./node_modules/@types/react-dom/index.d.ts",
       "./node_modules/@types/react-redux/index.d.ts",
+      "./node_modules/@types/react-router-dom/index.d.ts",
+      "./node_modules/@types/react-router/index.d.ts",
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
+      "./node_modules/@types/redux-actions/index.d.ts",
       "./node_modules/@types/scheduler/index.d.ts",
       "./node_modules/@types/scheduler/tracing.d.ts",
       "./node_modules/@types/serve-static/index.d.ts",
@@ -5565,22 +5819,32 @@
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/client/app.tsx",
       "./src/client/components/header/index.tsx",
+      "./src/client/components/header/languageswitcher.tsx",
+      "./src/client/components/header/login.tsx",
+      "./src/client/components/header/logo.tsx",
+      "./src/client/components/header/navigation.tsx",
+      "./src/client/components/header/test.ts",
       "./src/client/components/userlist/index.tsx",
-      "./src/client/components/userlist/userlist.tsx",
       "./src/client/pages/about/index.tsx",
+      "./src/client/pages/homepage/goals.tsx",
       "./src/client/pages/homepage/index.tsx",
+      "./src/client/pages/homepage/mainbanner.tsx",
+      "./src/client/routing-config/index.tsx",
       "./src/client/store/reducers.ts",
       "./src/client/store/saga.init.ts",
+      "./src/client/store/state.type.ts",
       "./src/client/store/user/actions.ts",
       "./src/client/store/user/index.ts",
-      "./src/client/store/user/reducers.ts",
+      "./src/client/store/user/reducer.ts",
       "./src/client/store/user/saga.ts",
       "./src/client/store/user/selectors.ts",
       "./src/client/store/user/types.ts",
+      "./src/client/utils/actioncreator.ts",
       "./src/client/utils/httpclient.ts",
+      "./src/common/user/index.ts",
+      "./src/config/index.ts",
       "./src/server/app.module.ts",
       "./src/server/main.ts",
-      "./src/server/user/dto/create-user.dto.ts",
       "./src/server/user/schemas/user.schema.ts",
       "./src/server/user/user.controller.ts",
       "./src/server/user/user.module.ts",

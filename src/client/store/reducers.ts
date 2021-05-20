@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
-
-import user from './user';
+import {
+    reducer as userReducer,
+    storeName as userStoreName
+} from './user';
 
 export default combineReducers({
-    user,
+    [userStoreName]: userReducer,
 });

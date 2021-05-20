@@ -1,7 +1,8 @@
-export default storeName => {
-    const getStore = (state) => state[storeName] || {};
+import { State } from "../state.type";
+import { storeName } from "./types";
 
-    return {
-        getUsersList: state => getStore(state).list,
-    };
-}
+const getStore = (state: State) => state[storeName];
+
+export const selectors = {
+    getUsersList: (state: State) => getStore(state).list,
+};

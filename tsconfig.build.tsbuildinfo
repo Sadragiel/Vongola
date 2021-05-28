@@ -381,13 +381,18 @@
         "signature": "85da62fb83bfd81c30d62ca33a9897b36169f82f34072a62735e330b0bb42649",
         "affectsGlobalScope": false
       },
+      "./src/client/pages/homepage/goals.tsx": {
+        "version": "42dc0d2ffe87f56b961ac880c9be5496eb8e0f870c30d7af7c85e4d91d1af1ac",
+        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
+        "affectsGlobalScope": false
+      },
       "./src/client/pages/homepage/mainbanner.tsx": {
         "version": "76a43d23f062739de5889d335d30735c3ed463bab9a8d5d3e8ab64cd052f6674",
         "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
         "affectsGlobalScope": false
       },
       "./src/client/pages/homepage/index.tsx": {
-        "version": "b01f639fc5d9545219537a3a7d91416ffd11b1c4c9ff7be856844b9efa1a0496",
+        "version": "4040e3c8cbe07ea389294a3be34f18346f4e576dee0a67ccbcb5d86fe6dbe13d",
         "signature": "612a46b6c0b4d38a6b17733d5cce59fee7f9653ed2b68116aadc278baedc5c2f",
         "affectsGlobalScope": false
       },
@@ -411,19 +416,14 @@
         "signature": "612a46b6c0b4d38a6b17733d5cce59fee7f9653ed2b68116aadc278baedc5c2f",
         "affectsGlobalScope": false
       },
+      "./src/client/components/footer/index.tsx": {
+        "version": "352bfe62e498a098f82ca290753130931cb7ecd025d2db058360f0743c37c8e9",
+        "signature": "612a46b6c0b4d38a6b17733d5cce59fee7f9653ed2b68116aadc278baedc5c2f",
+        "affectsGlobalScope": false
+      },
       "./src/client/app.tsx": {
-        "version": "fec52549bb7f8a92b3db5617c2cabca030a8a6b9a7eebfd09d7e77fb084edf9a",
+        "version": "f8183ab709a78ba17b7d804534c4ae0b5cefc5eeca949548247be04209018ebb",
         "signature": "9fdaaa24f9f1bbf6913db7c2b06439dee50ddb2a3c4a552d8b765e9c98231d90",
-        "affectsGlobalScope": false
-      },
-      "./src/client/components/header/test.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "affectsGlobalScope": false
-      },
-      "./src/client/pages/homepage/goals.tsx": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       },
       "./src/config/index.ts": {
@@ -3759,9 +3759,13 @@
         "./node_modules/@types/react-redux/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./src/client/components/footer/index.tsx",
         "./src/client/components/header/index.tsx",
         "./src/client/routing-config/index.tsx",
         "./src/client/store/saga.init.ts"
+      ],
+      "./src/client/components/footer/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/client/components/header/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -3792,8 +3796,12 @@
       "./src/client/pages/about/index.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/client/pages/homepage/goals.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/client/pages/homepage/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
+        "./src/client/pages/homepage/goals.tsx",
         "./src/client/pages/homepage/mainbanner.tsx"
       ],
       "./src/client/pages/homepage/mainbanner.tsx": [
@@ -5818,12 +5826,12 @@
       "./node_modules/typescript/lib/lib.scripthost.d.ts",
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/client/app.tsx",
+      "./src/client/components/footer/index.tsx",
       "./src/client/components/header/index.tsx",
       "./src/client/components/header/languageswitcher.tsx",
       "./src/client/components/header/login.tsx",
       "./src/client/components/header/logo.tsx",
       "./src/client/components/header/navigation.tsx",
-      "./src/client/components/header/test.ts",
       "./src/client/components/userlist/index.tsx",
       "./src/client/pages/about/index.tsx",
       "./src/client/pages/homepage/goals.tsx",

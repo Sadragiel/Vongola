@@ -1,5 +1,5 @@
 .main-banner {
-    height: 70vh;
+    height: 80vh;
     background: #2b3137;
     padding: 30px 50px;
     display: flex;
@@ -8,6 +8,7 @@
     align-items: center;
     color: white;
     text-align: center;
+    border-radius: 0 0 50px 50px;
 
     &__title {
         font-size: 60px;

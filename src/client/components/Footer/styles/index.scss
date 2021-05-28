@@ -1,0 +1,11 @@
+@import './../../../styles/common';
+
+.footer {
+    padding: 20px;
+    background: #2b3137;
+
+    &__row {
+        display: flex;
+        justify-content: center;
+    }
+}

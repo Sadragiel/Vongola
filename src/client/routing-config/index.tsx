@@ -22,16 +22,8 @@ export const routingConfig = {
 };
 
 type KeysOfRoutingConfig = keyof typeof routingConfig;
-type RouterArrayType = readonly KeysOfRoutingConfig [];
+type RouterArrayType = readonly KeysOfRoutingConfig[];
 
-export const routerArray: RouterArrayType = [
-    'about',
-    'user',
-    'home',
-];
+export const routerArray: RouterArrayType = ['about', 'user', 'home'];
 
-export const navigationRouterArray: RouterArrayType = [
-    'home',
-    'user',
-    'about',
-];
+export const navigationRouterArray: RouterArrayType = ['home', 'user', 'about'];

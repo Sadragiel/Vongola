@@ -13,23 +13,19 @@ const contactsList = [
         icon: 'https://ellada94.kiev.ua/wp-content/uploads/2020/08/pin.svg',
         label: 'Sus, Пунe, Махараштра, Індія',
     },
-]
+];
 
-export default function() {
+export default function () {
     return (
         <div className="contacts">
-            <h5 className="contacts__title">
-                Контактна інформація
-            </h5>
+            <h5 className="contacts__title">Контактна інформація</h5>
             <ul className="contacts__list">
-                { contactsList.map(item => (
-                        <li className="contacts__item">
-                            <img
-                                className="contacts__icon"
-                                src={ item.icon } />
-                            <p className="contacts__label">{ item.label }</p>
-                        </li>
-                    )) }
+                {contactsList.map((item) => (
+                    <li className="contacts__item">
+                        <img className="contacts__icon" src={item.icon} />
+                        <p className="contacts__label">{item.label}</p>
+                    </li>
+                ))}
             </ul>
         </div>
     );

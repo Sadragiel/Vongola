@@ -6,15 +6,15 @@ import Navigation from './Navigation';
 
 import './styles/index.scss';
 
-export default function() {
+export default function () {
     return (
-		<header className="header">
-			<div className="header__row">
-				<Logo modifier="logo--bg-primary logo--centered" />
-				<Navigation />
-				<Login />
-				<LanguageSwitcher />
-			</div>
-		</header>
+        <header className="header">
+            <div className="header__row">
+                <Logo modifier="logo--bg-primary logo--centered" />
+                <Navigation />
+                <Login />
+                <LanguageSwitcher />
+            </div>
+        </header>
     );
 }

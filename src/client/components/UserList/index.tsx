@@ -6,21 +6,22 @@ import { actions, selectors } from '../../store/user';
 export default () => {
     const userList = useSelector(selectors.getUsersList);
     const dispatch = useDispatch();
-    
+
     React.useEffect(() => {
         dispatch(actions.getUsers());
     }, []);
 
     return (
         <ul>
-            { userList 
-                ? userList.map(user => (
+            {userList ? (
+                userList.map((user) => (
                     <li key={user.login}>
                         <span> {user.login} </span>
                     </li>
                 ))
-                : <span> EMPTY LIST LOL </span>
-            }
+            ) : (
+                <span> EMPTY LIST LOL </span>
+            )}
         </ul>
-    )
-}
+    );
+};

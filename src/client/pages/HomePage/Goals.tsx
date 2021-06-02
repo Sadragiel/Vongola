@@ -4,7 +4,8 @@ const goalsList = [
     {
         preview: 'https://i.pinimg.com/originals/bb/ba/ef/bbbaef9cec9c1da9da1eeb642fd2de3e.png',
         title: 'Virtual Learning',
-        slogan: 'Online curriculum and virtual learning empower schools and districts to expand course offerings, offer more flexible learning options, and even staff your own virtual program with our highly qualified, state-certified virtual instructors',
+        slogan:
+            'Online curriculum and virtual learning empower schools and districts to expand course offerings, offer more flexible learning options, and even staff your own virtual program with our highly qualified, state-certified virtual instructors',
     },
     {
         preview: 'https://i.pinimg.com/originals/5d/ef/24/5def2432ab2814d8023dc3cecde50f64.png',
@@ -27,29 +28,21 @@ const goalsList = [
     },
 ];
 
-export default function() {
+export default function () {
     return (
         <section className="goals">
             <ul className="goals__list">
-                { goalsList.map(goal => (
+                {goalsList.map((goal) => (
                     <li className="goals__item">
                         <figure className="goals__figure">
-                            <img 
-                                src={ goal.preview }  
-                                alt={ goal.title }
-                                className="goals__preview"
-                            />
-                            <figcaption className="goals__caption"> 
-                                <span className="goals__title">
-                                    { goal.title }
-                                </span>
-                                <span className="goals__slogan">
-                                    { goal.slogan }
-                                </span>
+                            <img src={goal.preview} alt={goal.title} className="goals__preview" />
+                            <figcaption className="goals__caption">
+                                <span className="goals__title">{goal.title}</span>
+                                <span className="goals__slogan">{goal.slogan}</span>
                             </figcaption>
                         </figure>
-                    </li>  
-                )) }
+                    </li>
+                ))}
             </ul>
         </section>
     );

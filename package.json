@@ -10,7 +10,7 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "build:client": "webpack",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:dev:client": "webpack --watch --mode development",

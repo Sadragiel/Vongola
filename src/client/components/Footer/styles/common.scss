@@ -1,0 +1,9 @@
+@mixin footer-title {
+    color: $text-primary;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $brand-secondary;
+    margin-bottom: 30px;    
+}

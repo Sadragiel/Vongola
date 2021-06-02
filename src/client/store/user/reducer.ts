@@ -8,17 +8,14 @@ const initialState = {
 
 export type UserState = typeof initialState;
 
-export const reducer = (
-    state = initialState,
-    action: UserAction,
-) => {
-    switch(action.type) {
-        case types.SET_USERS: 
+export const reducer = (state = initialState, action: UserAction) => {
+    switch (action.type) {
+        case types.SET_USERS:
             return {
                 ...state,
                 list: action.payload,
             };
-        default: 
+        default:
             return state;
     }
-}
+};

@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const goalsList = [
     {
-        preview: 'https://i.pinimg.com/originals/31/4c/dc/314cdcfd6aa867b42a0cecdafab43ba2.png',
+        preview: 'https://i.pinimg.com/originals/bb/ba/ef/bbbaef9cec9c1da9da1eeb642fd2de3e.png',
         title: 'Virtual Learning',
         slogan: 'Online curriculum and virtual learning empower schools and districts to expand course offerings, offer more flexible learning options, and even staff your own virtual program with our highly qualified, state-certified virtual instructors',
     },

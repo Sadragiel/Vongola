@@ -5,12 +5,12 @@ import { UserModule } from './user/user.module';
 import config from '../config';
 
 @Module({
-  imports: [
-    ServeStaticModule.forRoot({
-      rootPath: config.staticPath,
-    }),
-    MongooseModule.forRoot(config.database),
-    UserModule
-  ],
+    imports: [
+        ServeStaticModule.forRoot({
+            rootPath: config.staticPath,
+        }),
+        MongooseModule.forRoot(config.database),
+        UserModule,
+    ],
 })
 export class AppModule {}

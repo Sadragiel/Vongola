@@ -1,0 +1,28 @@
+.contacts {
+
+    &__title {
+        @include footer-title;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 20px;
+    }
+
+    &__label {
+        font-size: 16px;
+        color: $text-primary;
+    }
+}

@@ -1,7 +1,7 @@
 export enum Role {
     regular = 'regular',
     admin = 'admin',
-};
+}
 
 export interface CreateUserDto {
     readonly login: string;

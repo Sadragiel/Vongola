@@ -1,5 +1,5 @@
-import { State } from "../state.type";
-import { storeName } from "./types";
+import { State } from '../state.type';
+import { storeName } from './types';
 
 const getStore = (state: State) => state[storeName];
 

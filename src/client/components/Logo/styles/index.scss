@@ -1,0 +1,43 @@
+@import './../../../styles/common';
+
+.logo {
+    $root: &;
+    margin: 0;
+
+    &__image {
+        width: 65px;
+    }
+
+    &--bg-primary {
+        #{$root}__wrapper {
+            position: relative;
+            display: inline-block;
+            margin: auto;
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                border: 5px solid $brand-secondary;
+                box-sizing: border-box;
+                background: $brand-logo;
+                z-index: 5;
+            }
+        }
+        #{$root}__image {
+            position: relative;
+            z-index: 10;
+            padding: 20px;
+        }
+    }
+
+    &--centered {
+        display: flex;
+        justify-content: center;
+    }
+}

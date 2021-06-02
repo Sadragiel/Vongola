@@ -1,0 +1,27 @@
+.footer-links {
+
+    &__title {
+        @include footer-title;
+    }
+
+    &__list {
+        padding-left: 10px;
+    }
+
+    &__item {
+        &::before {
+            content: "\2022";
+            color: $text-primary;
+            font-weight: bold;
+            display: inline-block;
+            width: 15px;
+            margin-left: -10px;
+        }
+    }
+
+    &__link {
+        color: $text-primary;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

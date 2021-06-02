@@ -1,11 +1,39 @@
 @import './../../../styles/common';
+@import 'common';
+@import 'social';
+@import 'contacts';
+@import 'footer-links';
 
 .footer {
-    padding: 20px;
-    background: #2b3137;
+    position: relative;
+    padding: 17px;
+    background: $brand-primary;
 
     &__row {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: auto;
+        padding: 30px 0;
+
+        &:not(:first-child) {
+            border-top: 1px solid $text-primary;
+        }
+    }
+
+    &__column {
+        padding: 0 20px;
+        
+        &--3 {
+            flex: 0 0 20%;
+        }
+    }
+
+    &__copyright {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        color: $text-primary;
+        text-align: right;
     }
 }

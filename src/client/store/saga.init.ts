@@ -4,9 +4,13 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import reducer from './reducers';
 
 import userSaga from './user/saga';
+import uiSaga from './ui/saga';
 
 function* rootSaga() {
-    yield all([...userSaga]);
+    yield all([
+        ...userSaga,
+        ...uiSaga,
+    ]);
 }
 
 const composeEnhancers =

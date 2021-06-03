@@ -21,7 +21,7 @@ export default function () {
             <h5 className="contacts__title">Контактна інформація</h5>
             <ul className="contacts__list">
                 {contactsList.map((item) => (
-                    <li className="contacts__item">
+                    <li key={item.icon} className="contacts__item">
                         <img className="contacts__icon" src={item.icon} />
                         <p className="contacts__label">{item.label}</p>
                     </li>

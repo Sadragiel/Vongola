@@ -33,7 +33,7 @@ export default function () {
         <section className="goals">
             <ul className="goals__list">
                 {goalsList.map((goal) => (
-                    <li className="goals__item">
+                    <li key={goal.title} className="goals__item">
                         <figure className="goals__figure">
                             <img src={goal.preview} alt={goal.title} className="goals__preview" />
                             <figcaption className="goals__caption">

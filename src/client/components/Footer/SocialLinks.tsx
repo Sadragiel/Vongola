@@ -27,7 +27,7 @@ export default function () {
             <h5 className="social__title">Ми у соціальних мережах</h5>
             <ul className="social__list">
                 {socialInfo.map((item) => (
-                    <li className="social__item">
+                    <li key={item.src} className="social__item">
                         <a className="social__link" href={item.link}>
                             <img className="social__icon" src={item.src} alt={item.alt} />
                         </a>

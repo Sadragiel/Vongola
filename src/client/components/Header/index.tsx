@@ -5,6 +5,7 @@ import Logo from './../Logo';
 import Navigation from './Navigation';
 
 import './styles/index.scss';
+import AuthModal from './AuthModal';
 
 export default function () {
     return (
@@ -15,6 +16,7 @@ export default function () {
                 <Login />
                 <LanguageSwitcher />
             </div>
+            <AuthModal />
         </header>
     );
 }

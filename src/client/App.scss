@@ -1,3 +1,5 @@
-.test {
-    color: red;
+.body {
+    &--no-scroll {
+        overflow: hidden;
+    }
 }

@@ -23,8 +23,7 @@ export default function (props: PropsType) {
     }, [activeDialogName, props.name]);
 
     const onClose = () => {
-        if (props.onClose)
-            props.onClose();
+        props.onClose?.();
         dispatch(actions.closeDialog());
     }
 

@@ -402,7 +402,7 @@
         "affectsGlobalScope": false
       },
       "./src/client/components/header/login.tsx": {
-        "version": "80f68a889ac5e0e6ee94ea77c421ebbab43f1f0170add444ffaadb5c7a3cafb7",
+        "version": "c0658fe5fc4d6c6a474a10df814b3ecf87005686f9168fec728a97523e42072d",
         "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
         "affectsGlobalScope": false
       },
@@ -433,16 +433,6 @@
       },
       "./src/client/pages/about/index.tsx": {
         "version": "e1c0be57db284215e7d1e975aca4a6fae0dde5f24a0967178ccd816ff64339ac",
-        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
-        "affectsGlobalScope": false
-      },
-      "./src/client/routing-config/index.tsx": {
-        "version": "f506aeb80b2961bd469b02b2c3107fae386288c684ef67999f4143f4c2331c68",
-        "signature": "98e28e1309d5a66f22ce235475948155e09abc0d4d86f0b558d26762e7442479",
-        "affectsGlobalScope": false
-      },
-      "./src/client/components/header/navigation.tsx": {
-        "version": "490f90938f3788600e2e2a5e13493bc28a783c6a477709d7f93e04aca2376dbb",
         "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
         "affectsGlobalScope": false
       },
@@ -611,18 +601,43 @@
         "signature": "7f600f7df7cdd0d750380b529896681416e977ea51eac877d2cd75bd619a1ae3",
         "affectsGlobalScope": false
       },
-      "./src/client/components/connected/dialog/index.tsx": {
-        "version": "e3de82b40a22af1e9b54bc1c8b7820f2bc8108556a7998bfa9f0032b374092ac",
-        "signature": "bc698a670712f35ef00a9987d38e2666d691b6cb546394801b0d13e56f0a7a4e",
-        "affectsGlobalScope": false
-      },
       "./src/client/components/connected/form/inputfield/index.tsx": {
         "version": "4c95d2f298e8f8741aef615caaebed43156535086c8fb6e449a76d8677a4d226",
         "signature": "469a5cc4b2cd7dbbe12da74a42e494d76033b4ade81b7499141e45a440093672",
         "affectsGlobalScope": false
       },
+      "./src/client/pages/registration/firststep.tsx": {
+        "version": "3d0fefba8a578c2cfd01cdeafbcdb5bacf37c04287100cd5669bf7af17f969c9",
+        "signature": "f011a8eb679196a2576299ef970a331794079b6d88673ec9405d55b6b215ca35",
+        "affectsGlobalScope": false
+      },
+      "./src/client/pages/registration/secondstep.tsx": {
+        "version": "35c7014730b3d3c9aa5068c7dc79d997c8b8be2251c1db3696bd3e620dbe990e",
+        "signature": "44d85abd580a21e8fa212e38471a6644b759b94768e9f9017e750f7a760e96a4",
+        "affectsGlobalScope": false
+      },
+      "./src/client/pages/registration/index.tsx": {
+        "version": "8989eb36ae876c9e1281c245fe0ff0a32bd0c305a66b3c28d34fe6c9af80ddd4",
+        "signature": "612a46b6c0b4d38a6b17733d5cce59fee7f9653ed2b68116aadc278baedc5c2f",
+        "affectsGlobalScope": false
+      },
+      "./src/client/routing-config/index.tsx": {
+        "version": "ed61c70aa2f846ba97e7aab718d06ef8d31c50ad261769a76c0c9564a8f86e72",
+        "signature": "fa63c530ea7ffe0e2a338ec60ce38840ea331a545af0b0f22331f3840c78147b",
+        "affectsGlobalScope": false
+      },
+      "./src/client/components/header/navigation.tsx": {
+        "version": "490f90938f3788600e2e2a5e13493bc28a783c6a477709d7f93e04aca2376dbb",
+        "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
+        "affectsGlobalScope": false
+      },
+      "./src/client/components/connected/dialog/index.tsx": {
+        "version": "dd4cb3b79788576037cf23a0cc5a03e3e9c321ac877e04b883220d266c0207d0",
+        "signature": "bc698a670712f35ef00a9987d38e2666d691b6cb546394801b0d13e56f0a7a4e",
+        "affectsGlobalScope": false
+      },
       "./src/client/components/header/authmodal.tsx": {
-        "version": "e18ab2c6f19a278ca3420d86245e18122d5f72a64ce83a62bf429a2e05e4ed3c",
+        "version": "4681a2575a09f5343c7942eb5e56a7eef852925af7b09abd4856603514064f59",
         "signature": "0d757f2b9650d71ea202e3a953cad651bb98592314a66a03835463517811d667",
         "affectsGlobalScope": false
       },
@@ -4482,11 +4497,29 @@
       "./src/client/pages/homepage/mainbanner.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/client/pages/registration/firststep.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/formik/dist/index.d.ts",
+        "./node_modules/yup/lib/index.d.ts",
+        "./src/client/components/connected/form/inputfield/index.tsx"
+      ],
+      "./src/client/pages/registration/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/client/pages/registration/firststep.tsx",
+        "./src/client/pages/registration/secondstep.tsx"
+      ],
+      "./src/client/pages/registration/secondstep.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/formik/dist/index.d.ts",
+        "./node_modules/yup/lib/index.d.ts",
+        "./src/client/components/connected/form/inputfield/index.tsx"
+      ],
       "./src/client/routing-config/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/client/components/userlist/index.tsx",
         "./src/client/pages/about/index.tsx",
-        "./src/client/pages/homepage/index.tsx"
+        "./src/client/pages/homepage/index.tsx",
+        "./src/client/pages/registration/index.tsx"
       ],
       "./src/client/store/reducers.ts": [
         "./node_modules/redux/index.d.ts",
@@ -6964,6 +6997,9 @@
       "./src/client/pages/homepage/goals.tsx",
       "./src/client/pages/homepage/index.tsx",
       "./src/client/pages/homepage/mainbanner.tsx",
+      "./src/client/pages/registration/firststep.tsx",
+      "./src/client/pages/registration/index.tsx",
+      "./src/client/pages/registration/secondstep.tsx",
       "./src/client/routing-config/index.tsx",
       "./src/client/store/reducers.ts",
       "./src/client/store/saga.init.ts",

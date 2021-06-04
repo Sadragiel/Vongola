@@ -9,10 +9,12 @@ export default function () {
         dispatch(actions.openDialog(constants.loginModal))
     }, [])
 
-    return <div
-        onClick={ onClick }
-        className="login"
-    >
-        Login
+    return <div className="login">
+        <div 
+            onClick={ onClick }
+            className="login__button"
+        >
+            Login
+        </div>
     </div>;
 }

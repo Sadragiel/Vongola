@@ -1,0 +1,36 @@
+.registration-second-step {
+    &__form {
+
+    }
+
+    &__field {
+        padding: 10px 0;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: baseline;
+
+        &--error {
+            color: $text-error; 
+        }
+    }
+
+    &__label {
+        &::after {
+            content: ':';
+            margin: 0 3px;
+        }
+    }
+
+    &__submit {
+        float: right;
+    }
+
+    &__input {
+        flex-grow: 1;
+        outline: none;
+    }
+
+    &__error {
+        flex-basis: 100%;
+    }
+}

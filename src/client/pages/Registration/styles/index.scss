@@ -1,0 +1,15 @@
+@import './../../../styles/common';
+@import 'registration-first-step';
+@import 'registration-second-step';
+
+.registration {
+    padding: 50px 25vw;
+    min-height: calc(100vh - 500px);
+
+    &__title {
+        @include RussoOne;
+        position: relative;
+        font-size: 60px;
+        line-height: 1.2;
+    }
+}

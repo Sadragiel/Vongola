@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Formik, Form, Field } from 'formik';
+import { Formik, Form } from 'formik';
 import * as yup from "yup"
 import Dialog from '../connected/Dialog';
 import { constants } from './common';
@@ -15,7 +15,6 @@ const LoginValidation = yup.object().shape({
       .string()
       .min(8)
       .max(16)
-      .matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*d)[a-zA-Zd]$/)
       .required(),
 })
 
@@ -66,7 +65,7 @@ export default function () {
                 </Formik>
                 <div className="auth-modal__footer">
                     <a 
-                        href="#"
+                        href="/registration"
                         className="auth-modal__registration">
                         Реєстрація
                     </a>

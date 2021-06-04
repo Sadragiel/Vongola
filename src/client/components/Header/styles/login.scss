@@ -1,4 +1,17 @@
 .login {
     display: flex;
     align-items: center;
+
+    &__button {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 5px;
+        font-weight: 800;
+        color: $link-primary;
+        cursor: pointer;
+
+        &:hover {
+            color: $link-primary-hover;
+        }
+    }
 }

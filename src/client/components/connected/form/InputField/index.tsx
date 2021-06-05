@@ -1,35 +1,36 @@
 import * as React from 'react';
-import { Field } from 'formik';
+import { TextField } from '@material-ui/core';
 
 type PropsType = {
     classname: string,
     name: string,
     label?: string,
-    errors?: string,
-    touched?: boolean,
     type?: string,
+    multiline?: boolean,
+    formik: any,
 }
 
 export default function (props: PropsType) {
+    const formik = props.formik;
+    window.console.log('formic', formik)
     return (
         <label className={`${props.classname}__field ${
-            props.errors && props.touched 
+            formik.errors[props.name] && formik.touched[props.name] 
                 ? `${props.classname}__field--error`
                 : ''
         }`}>
-            <span className={`${props.classname}__label`}>
-                { props.label }
-            </span>
-            <Field 
+            <TextField 
                 name={ props.name } 
                 type={ props.type }
                 className={`${props.classname}__input`}
-            />
-            {props.errors && props.touched && (
-                <div className={`${props.classname}__error`}>
-                    { props.errors }
-                </div>
-            )}
+                label={ props.label }
+                multiline={ props.multiline }
+                value={formik.values[props.name]}
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+                error={formik.touched[props.name] && Boolean(formik.errors[props.name])}
+                helperText={formik.touched[props.name] && formik.errors[props.name]}
+                variant="outlined" />
         </label>
     );
 }

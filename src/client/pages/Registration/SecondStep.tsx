@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Formik, Form } from 'formik';
+import { Formik, Form, useFormik, FormikProvider } from 'formik';
 import * as yup from "yup"
 import InputField from '../../components/connected/form/InputField';
+import { Button } from '@material-ui/core';
 
 const LoginValidation = yup.object().shape({
     fullname: yup
@@ -24,65 +25,63 @@ type PropsType = {
 };
 
 export default function (props: PropsType) {
+    const formik = useFormik({
+        initialValues: {
+            fullname: '',
+            bio: '',
+            age: '',
+            ava: null,
+        },
+        validationSchema: LoginValidation,
+        onSubmit: () => {
+            // todo
+        }
+    });
+    
     return (
         <div className="registration-second-step">
-            <Formik
-                    initialValues={{
-                        fullname: '',
-                        bio: '',
-                        age: '',
-                        ava: null,
-                    }}
-                    validationSchema={LoginValidation}
-                    onSubmit={values => {
-                        // todo
-                    }}
-                >
-                    {({ errors, touched }) => (
-                        <Form className="registration-second-step__form">
-                            <InputField
-                                classname="registration-second-step"
-                                name="fullname" 
-                                type="text"
-                                label="Fullname"
-                                errors={errors.fullname}
-                                touched={touched.fullname}
-                            />
-                            <InputField
-                                classname="registration-second-step"
-                                name="bio" 
-                                type="text"
-                                label="Bio"
-                                errors={errors.bio}
-                                touched={touched.bio}
-                            />
+            <FormikProvider value={formik}>
+                <form onSubmit={formik.handleSubmit} className="registration-second-step__form">
+                    <InputField
+                        classname="registration-second-step"
+                        name="fullname" 
+                        type="text"
+                        label="Fullname"
+                        formik={formik}
+                    />
+                    <InputField
+                        classname="registration-second-step"
+                        name="bio" 
+                        type="text"
+                        label="Bio"
+                        formik={formik}
+                    />
 
-                            <InputField
-                                classname="registration-second-step"
-                                name="age" 
-                                type="number"
-                                label="Age"
-                                errors={errors.age}
-                                touched={touched.age}
-                            />
+                    <InputField
+                        classname="registration-second-step"
+                        name="age" 
+                        type="number"
+                        label="Age"
+                        formik={formik}
+                    />
 
-                            <InputField
-                                classname="registration-second-step"
-                                name="ava" 
-                                type="file"
-                                label="Choose profile pic (anime or pony (r34) preferable)"
-                                errors={errors.ava}
-                                touched={touched.ava}
-                            />
+                    <InputField
+                        classname="registration-second-step__file-input registration-second-step"
+                        name="ava" 
+                        type="file"
+                        label="Choose profile pic (anime or pony (r34) preferable)"
+                        formik={formik}
+                    />
 
-                            <button 
-                                className="registration-second-step__submit"
-                                type="submit">
-                                Submit
-                            </button>
-                        </Form>
-                    )}
-                </Formik>
+                    <Button     
+                        variant="contained"
+                        color="primary"
+                        className="registration-second-step__submit"
+                        type="submit">
+                        Submit
+                    </Button>
+                </form>
+            </FormikProvider>
         </div>
     );
 }

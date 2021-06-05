@@ -1,0 +1,86 @@
+@import './../../../styles/common';
+
+.about-page {
+    padding: 50px 25vw;
+    min-height: calc(100vh - 500px);
+    display: flex;
+    flex-flow: row wrap;
+
+    &__title, &__qna-title {
+        @include RussoOne;
+        position: relative;
+        font-size: 35px;
+        line-height: 40px;
+        padding-top: 25px;
+    }
+
+    &__qna-title {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    &__author {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px 20px 200px;
+        border-top: 1px solid $link-primary;
+        border-bottom: 1px solid $link-primary;
+        min-height: 150px;
+        width: 100%;
+    }
+
+    &__common-info {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    &__paragraph  {
+        padding-top: 8px;
+    }
+
+    &__illustration {
+        box-sizing: border-box;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    &__ava {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        display: block;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        padding-right: 20px;
+    }
+    
+    &__created-by {
+        padding-top: 25px;
+    }
+
+    &__name {
+        @include RussoOne;
+        position: relative;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    &__common-info {
+        flex-basis: 100%;
+        padding: 20px 0;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    
+    &__row {
+        padding-top: 10px;
+    }
+
+    &__label {
+        font-weight: bold;
+        margin-right: 5px;
+    }
+}

@@ -1,4 +1,4 @@
-.registration-second-step {
+.new-course-first-step {
     &__form {
 
     }
@@ -19,10 +19,6 @@
             content: ':';
             margin: 0 3px;
         }
-    }
-
-    &__file-input input {
-        visibility: hidden !important; //todo replace
     }
 
     &__submit {

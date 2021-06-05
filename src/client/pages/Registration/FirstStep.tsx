@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Formik, Form } from 'formik';
+import { Formik, Form, useFormik, FormikProvider } from 'formik';
 import * as yup from "yup"
 import InputField from '../../components/connected/form/InputField';
+import { Button } from '@material-ui/core';
 
 const LoginValidation = yup.object().shape({
     email: yup
@@ -41,65 +42,63 @@ type PropsType = {
 };
 
 export default function (props: PropsType) {
+    const formik = useFormik({
+        initialValues: {
+            email: '',
+            email_repeat: '',
+            password: '',
+            password_repeat: '',
+        },
+        validationSchema: LoginValidation,
+        onSubmit: values => {
+            props.cb(values);
+        }
+    })
+
     return (
         <div className="registration-first-step">
-            <Formik
-                    initialValues={{
-                        email: '',
-                        email_repeat: '',
-                        password: '',
-                        password_repeat: '',
-                    }}
-                    validationSchema={LoginValidation}
-                    onSubmit={values => {
-                        props.cb(values);
-                    }}
-                >
-                    {({ errors, touched }) => (
-                        <Form className="registration-first-step__form">
-                            <InputField
-                                classname="registration-first-step"
-                                name="email" 
-                                type="email"
-                                label="Email"
-                                errors={errors.email}
-                                touched={touched.email}
-                            />
-                            <InputField
-                                classname="registration-first-step"
-                                name="email_repeat" 
-                                type="email"
-                                label="Repeat email"
-                                errors={errors.email_repeat}
-                                touched={touched.email_repeat}
-                            />
+            <FormikProvider value={formik}>
+                <form onSubmit={formik.handleSubmit} className="registration-first-step__form">
+                    <InputField
+                        classname="registration-first-step"
+                        name="email" 
+                        type="email"
+                        label="Email"
+                        formik={formik}
+                    />
+                    <InputField
+                        classname="registration-first-step"
+                        name="email_repeat" 
+                        type="email"
+                        label="Repeat email"
+                        formik={formik}
+                    />
 
-                            <InputField
-                                classname="registration-first-step"
-                                name="password" 
-                                type="password"
-                                label="Password"
-                                errors={errors.password}
-                                touched={touched.password}
-                            />
+                    <InputField
+                        classname="registration-first-step"
+                        name="password" 
+                        type="password"
+                        label="Password"
+                        formik={formik}
+                    />
 
-                            <InputField
-                                classname="registration-first-step"
-                                name="password_repeat" 
-                                type="password"
-                                label="Password"
-                                errors={errors.password_repeat}
-                                touched={touched.password_repeat}
-                            />
+                    <InputField
+                        classname="registration-first-step"
+                        name="password_repeat" 
+                        type="password"
+                        label="Password"
+                        formik={formik}
+                    />
 
-                            <button 
-                                className="registration-first-step__submit"
-                                type="submit">
-                                Submit
-                            </button>
-                        </Form>
-                    )}
-                </Formik>
+                    <Button  
+                        variant="contained"
+                        color="primary"
+                        className="registration-first-step__submit"
+                        type="submit">
+                        Submit
+                    </Button >
+                </form>
+            </FormikProvider>
         </div>
     );
 }

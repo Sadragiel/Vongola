@@ -1,0 +1,15 @@
+@import './../../../styles/common';
+@import 'new-course-first-step';
+@import 'new-course-second-step';
+
+.new-course-form {
+    padding: 50px 25vw;
+    min-height: calc(100vh - 500px);
+
+    &__title {
+        @include RussoOne;
+        position: relative;
+        font-size: 60px;
+        line-height: 1.2;
+    }
+}

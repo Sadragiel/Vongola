@@ -1,0 +1,62 @@
+@import './../../../styles/common';
+
+.course-list-page {
+    padding: 50px 15vw;
+    min-height: calc(100vh - 500px);
+
+    &__row {
+        display: flex;
+    }
+
+    &__aside {
+        flex-basis: 24%;
+    }
+
+    &__label {
+        @include RussoOne;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-right: 10px;
+    }
+
+    &__error {
+        display: none
+    }
+
+    &__filter-title {
+        @include RussoOne;
+        position: relative;
+        font-size: 20px;
+        line-height: 1.2;
+        padding: 25px 0 10px;
+        border-bottom: 1px solid $link-primary;
+        margin-bottom: 10px;
+    }
+
+    &__filter-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__filter-item {
+        padding: 5px 0;
+    }
+
+    &__check-box {
+        margin-right: 5px;
+    }
+
+    &__content {
+        flex-basis: 75%;
+    }
+
+    &__search-form {
+        padding: 27px 0 30px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__search-button {
+        margin-left: 10px !important; // todo: replace
+    }
+}
